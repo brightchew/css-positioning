@@ -1,11 +1,97 @@
 /*
 Colors to use:
 dark blue: #06365f
-light blue: #1c5380
+light blue: #1c5380"css-positioning"
 */
+
+
+
+
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background: #FFF;
+  z-index: 1;
+ 
+}
+
+a {
+	padding-right: 20px;
+	color: #1c5380;
+	
+}
+
+#aid {
+	color: white;
+	
+}
+
+.background {
+	background-color: #06365f;
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.maincontainer {
+	/*background-color: orange;*/
+	width: 1000px;
+	margin:auto;
+	padding-top: 100px;
+}
+
+.sub-main {
+	/*background-color: purple;*/
+}
+
+.phone {
+	
+	width: 35%;
+	text-align: center;
+}
+
+.content {
+    
+	width: 65%;
+	
+	
+}
+
+.bottomrow {
+	clear:both;
+	background-image:url("../img/frame.png");
+	background-size:cover;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+}
+
+.login {
+	color:white;
+	background-color:#1c5380;
+	
+	
+
+}
+
+#log{
+	background-color:#1c5380;
+	color:white;
+	border:none;
+	font-width:0;
+}
+.footer {
+	clear:both;
+	text-align: center;
 }
